@@ -1,0 +1,27 @@
+$accent-green: rgb(105, 237, 174);
+$accent-red: rgb(237, 99, 81);
+$accent-gray: rgb(204, 204, 204);
+$accent-blue: rgb(90, 69, 237);
+
+$accent-grey-opacity: rgba($accent-gray, 0.5);
+$accent-red-opacity: rgba($accent-red, 0.7);
+
+$accent-border: 0.1rem solid $accent-gray;
+$accent-border-false: 0.25rem solid $accent-red;
+$accent-border-true: 0.25rem solid $accent-green;
+
+$modal-bg: rgb(0, 0, 0);
+
+$primary-font-color: rgb(255, 255, 255);
+$primary-letter-spacing: 0.06rem;
+$primary-font-weight: 300;
+$primary-font-size: 1.5rem;
+
+$gradient: linear-gradient(
+    45deg,
+    rgba($accent-green, 0.5),
+    rgba($accent-gray, 0.5),
+    rgba($accent-green, 0.5),
+    rgba($accent-gray, 0.5),
+    rgba($accent-green, 0.5)
+);

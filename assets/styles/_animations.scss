@@ -1,0 +1,23 @@
+// animation mixins
+// TODO: combine
+@mixin moving-backgrounds($name) {
+  @keyframes #{$name} {
+    0% {
+      background-position-x: left;
+    }
+    100% {
+      background-position-x: right;
+    }
+  }
+}
+
+@mixin flash-warning($name) {
+  @keyframes #{$name} {
+    0% {
+      background: $accent-grey-opacity;
+    }
+    100% {
+      background: $accent-red-opacity;
+    }
+  }
+}

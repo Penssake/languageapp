@@ -1,4 +1,7 @@
 export default {
+  generate: {
+    fallback: true
+  },
   head: {
     title: 'langapp',
     htmlAttrs: {

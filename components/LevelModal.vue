@@ -13,38 +13,14 @@ import { mapState } from "vuex";
 
 export default {
   name: "introModal",
-  computed: mapState("game", [
-    "modalGreeting",
-    "modalInstructions",
-    "levelComplete",
-  ]),
+  computed: {
+    ...mapState("modal", ["modalGreeting", "modalInstructions"]),
+    ...mapState("game", ["levelComplete"]),
+  },
   methods: {
     closeModal() {
       this.$store.dispatch("game/complete", false);
     },
   },
-  mounted() {
-    this.$store.dispatch("game/complete", true);
-  },
 };
 </script>
-<style lang="scss">
-.game-modal,
-.game-modal__content {
-  width: 100%;
-  height: 100%;
-  transition: height 1s, width 1s;
-}
-.game-modal {
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: $modal-bg;
-  &__content {
-    @include flex(column, center, center);
-  }
-  &--closed {
-    display: none;
-  }
-}
-</style>

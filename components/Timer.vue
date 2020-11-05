@@ -31,20 +31,25 @@ export default {
   },
   watch: {
     countDown(val) {
-      if (val > 1) {
+      let timeOut = setTimeout(
+        () => this.$store.dispatch("timer/decrement"),
+        1000
+      );
+      if (val > 0) {
         this.outOfTime = false;
-        setTimeout(() => this.$store.dispatch("timer/decrement"), 1000);
         if (val <= 60) this.oneMinuteWarning = true;
         if (val <= 30) {
           this.oneMinuteWarning = false;
           this.thirtySecondWarning = true;
         }
+        return timeOut;
       }
       if (val <= 0) {
+        window.clearTimeout(timeOut);
         this.oneMinuteWarning = false;
         this.thirtySecondWarning = false;
         this.outOfTime = true;
-        this.$store.dispatch("game/reset");
+        this.$store.dispatch("game/gameOver", "time");
       }
     },
     currentTime(val) {
@@ -53,7 +58,6 @@ export default {
     start(val) {
       if (val) {
         this.countDown = this.currentTime;
-        this.$store.dispatch("timer/decrement");
         this.$store.dispatch("timer/startTimer", false);
       }
     },

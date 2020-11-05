@@ -1,0 +1,16 @@
+{
+    "intros": {
+        "greeting": [
+            "Bonjour!",
+            "Salut!"
+        ],
+        "instructions": [
+            "Pour jouer, choisissez la bonne paire",
+            "Choisissez l'verb pour terminer la déclaration"
+        ]
+    },
+    "fini": {
+        "heading": "Aïe",
+        "result": "Résultat"
+    }
+}

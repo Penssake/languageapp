@@ -1,0 +1,2670 @@
+{
+  "levels": [
+    {
+      "selection": [
+        {
+          "final": false,
+          "question": "lire",
+          "options": [
+            {
+              "text": "to speak",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to know",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to read",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "final": false,
+          "question": "être",
+          "options": [
+            {
+              "text": "to be",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to be able to",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to walk",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "final": true,
+          "question": "marcher",
+          "options": [
+            {
+              "text": "to walk",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to listen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to like",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "bonus": {
+        "intro": "Prime!",
+        "vocab": [
+          {
+            "question": "le visage",
+            "options": [
+              {
+                "text": "the foot",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the toe",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the face",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le front",
+            "options": [
+              {
+                "text": "the knee",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the brow",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the leg",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la tempe",
+            "options": [
+              {
+                "text": "the temple",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the hand",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the wrist",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la joue",
+            "options": [
+              {
+                "text": "the elbow",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the arm",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the cheek",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le menton",
+            "options": [
+              {
+                "text": "the buttock",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the hip",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the chin",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le cou",
+            "options": [
+              {
+                "text": "the neck",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the abdomen",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the chest",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "l'oeil",
+            "options": [
+              {
+                "text": "the navel",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the armpit",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the eye",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le cil",
+            "options": [
+              {
+                "text": "the throat",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the eyelash",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the shoulder",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la paupière",
+            "options": [
+              {
+                "text": "the back",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the belly",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the eyelid",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le sourcil",
+            "options": [
+              {
+                "text": "the hairs",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the eyebrow",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the ear",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "le nez",
+            "options": [
+              {
+                "text": "the nose",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the tooth",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the lip",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la bouche",
+            "options": [
+              {
+                "text": "the nose",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the buttock",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the mouth",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "la lèvre",
+            "options": [
+              {
+                "text": "the eyebrow",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the eyelid",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the lip",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "la dent",
+            "options": [
+              {
+                "text": "the tooth",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the eyelash",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the eye",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "l’oreille",
+            "options": [
+              {
+                "text": "the neck",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the chin",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the ear",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "les cheveux",
+            "options": [
+              {
+                "text": "the cheek",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the hairs",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the temple",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "le ventre",
+            "options": [
+              {
+                "text": "the brow",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the belly",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the face",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "le dos",
+            "options": [
+              {
+                "text": "the foot",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the toe",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the back",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le l’épaule",
+            "options": [
+              {
+                "text": "the knee",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the shoulder",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the leg",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la gorge",
+            "options": [
+              {
+                "text": "the throat",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the hand",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the wrist",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "l'aisselle",
+            "options": [
+              {
+                "text": "the elbow",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the arm",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the armpit",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le nombril",
+            "options": [
+              {
+                "text": "the buttock",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the navel",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the chin",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la poitrine",
+            "options": [
+              {
+                "text": "the neck",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the abdomen",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the chest",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "l’abdomen",
+            "options": [
+              {
+                "text": "the navel",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the abdomen",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the eye",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la hanche",
+            "options": [
+              {
+                "text": "the throat",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the eyelash",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the hip",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "la fesse",
+            "options": [
+              {
+                "text": "the buttock",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the belly",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the eyelid",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la bras",
+            "options": [
+              {
+                "text": "the arm",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the eyebrow",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the ear",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "le coude",
+            "options": [
+              {
+                "text": "the nose",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the elbow",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the lip",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la poignet",
+            "options": [
+              {
+                "text": "the nose",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the buttock",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the wrist",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "la main",
+            "options": [
+              {
+                "text": "the hand",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the eyelid",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the lip",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "la jambe",
+            "options": [
+              {
+                "text": "the leg",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "the eyelash",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the eye",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "le genou",
+            "options": [
+              {
+                "text": "the neck",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the knee",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the ear",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "l'orteil",
+            "options": [
+              {
+                "text": "the cheek",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the hairs",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the toe",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le pied",
+            "options": [
+              {
+                "text": "the brow",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the foot",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "the face",
+                "key": "003"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "selection": [
+        {
+          "question": "âgé (e)",
+          "options": [
+            {
+              "text": "old",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "aged",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "eldery",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "beau, bel, belle",
+          "options": [
+            {
+              "text": "beautiful",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "bell",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "becoming",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "bon, bonne",
+          "options": [
+            {
+              "text": "bad",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "good",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "best",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "confiant (e)",
+          "options": [
+            {
+              "text": "confident",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "confidant",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "connoisseur",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "courageux, courageuse",
+          "options": [
+            {
+              "text": "brave",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "courage",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "confident",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "égoïste",
+          "options": [
+            {
+              "text": "eremitical",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "selfish",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "exhausted",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "énergique",
+          "options": [
+            {
+              "text": "energy",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "energetic",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "enable",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "énorme",
+          "options": [
+            {
+              "text": "huge",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "grande",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "enormous",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "faible",
+          "options": [
+            {
+              "text": "weak",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "fable",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "feasible",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "fort (e)",
+          "options": [
+            {
+              "text": "fort",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "strong",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "fordable",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "fou, fol, folle",
+          "options": [
+            {
+              "text": "fawn",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "follow",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "crazy",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "gigantesque",
+          "options": [
+            {
+              "text": "shallow",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "hollow",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "huge",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "grand (e)",
+          "options": [
+            {
+              "text": "small",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "tall",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "medium",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "gros, grosse",
+          "options": [
+            {
+              "text": "big",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "gross",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "gas",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "idéaliste",
+          "options": [
+            {
+              "text": "petit",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "petits",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "petite",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "idéaliste",
+          "options": [
+            {
+              "text": "perfect",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "ideal",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "idealistic",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "intelligent (e)",
+          "options": [
+            {
+              "text": "clever",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "intuitive",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "unintelligent",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "inventif, inventive",
+          "options": [
+            {
+              "text": "resourceful",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "energetic",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "interesting",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "jeune",
+          "options": [
+            {
+              "text": "june",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "young",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "green",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "mince",
+          "options": [
+            {
+              "text": "minced",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "slender",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "thinned",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "nouveau, nouvel, nouvelle",
+          "options": [
+            {
+              "text": "new",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "young",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "nobel",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "optimiste",
+          "options": [
+            {
+              "text": "optimistic",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "optimal",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "opportunity",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "original (e)",
+          "options": [
+            {
+              "text": "first",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "original",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "beginning",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "passionné (e)",
+          "options": [
+            {
+              "text": "passion",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "passionate",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "passive",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "pessimiste",
+          "options": [
+            {
+              "text": "pessimistic",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "pessimists",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "passivast",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "peureux, peureuse",
+          "options": [
+            {
+              "text": "peruse",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "fearful",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "pass",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "prétentieux, prétentieuse",
+          "options": [
+            {
+              "text": "pretencious",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "pretend",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "pretending",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "sérieux, sérieuse",
+          "options": [
+            {
+              "text": "syracuse",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "serious",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "service",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "sincère",
+          "options": [
+            {
+              "text": "nice",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "kind",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "sincere",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "sportif, sportive",
+          "options": [
+            {
+              "text": "spirited",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "active",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "athletic",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "vieux, vieil, vieille",
+          "options": [
+            {
+              "text": "shy",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "old",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "sorrow",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "rempli",
+          "options": [
+            {
+              "text": "high",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "fresh",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "full",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "vide",
+          "options": [
+            {
+              "text": "low",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "empty",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "sorrow",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "chaud",
+          "options": [
+            {
+              "text": "cold",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "hot",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "rude",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "froid",
+          "options": [
+            {
+              "text": "cold",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "funny",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "hot",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "haut",
+          "options": [
+            {
+              "text": "hot",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "low",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "high",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "bas",
+          "options": [
+            {
+              "text": "low",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "funny",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "hot",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "frais",
+          "options": [
+            {
+              "text": "free",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "fresh",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "funky",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "bonus": {
+        "intro": "Prime!",
+        "vocab": [
+          {
+            "question": "écharpe",
+            "options": [
+              {
+                "text": "the pants",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "the jacket",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "the scarf",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "anorak",
+            "options": [
+              {
+                "text": "the windbreaker",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "jacket",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "scarf",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "bottes",
+            "options": [
+              {
+                "text": "boots",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "underware",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "leggings",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "gants",
+            "options": [
+              {
+                "text": "socks",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "gloves",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "shirt",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "bonnet",
+            "options": [
+              {
+                "text": "socks",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "gloves",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "cap",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "pelle à neige",
+            "options": [
+              {
+                "text": "snow",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "pile of snow",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "snow shovel",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "neige",
+            "options": [
+              {
+                "text": "snow",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "dirt",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "sand",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "pull",
+            "options": [
+              {
+                "text": "pants",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "sweater",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "hat",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "garage",
+            "options": [
+              {
+                "text": "garment",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "garage",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "clothing",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "fenêtre",
+            "options": [
+              {
+                "text": "window",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "door",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "wall",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "marches",
+            "options": [
+              {
+                "text": "paint",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "door",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "stairs",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "allée",
+            "options": [
+              {
+                "text": "paint",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "driveway",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "house",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "pull",
+            "options": [
+              {
+                "text": "pants",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "sweater",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "hat",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "garage",
+            "options": [
+              {
+                "text": "garment",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "garage",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "clothing",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "fenêtre",
+            "options": [
+              {
+                "text": "window",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "door",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "wall",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "porte",
+            "options": [
+              {
+                "text": "paint",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "door",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "stairs",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "pelouse",
+            "options": [
+              {
+                "text": "paint",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "driveway",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "lawn",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "mur",
+            "options": [
+              {
+                "text": "wall",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "driveway",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "lawn",
+                "key": "003"
+              }
+            ]
+          },
+          {
+            "question": "toit",
+            "options": [
+              {
+                "text": "you",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "roof",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "lawn",
+                "key": "003"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "selection": [
+        {
+          "question": "Ma grand-mère est dans une maison pour personnes ______",
+          "options": [
+            {
+              "text": "âgé",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "âgées",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "âgée",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "Alexis était un ______ bébé",
+          "options": [
+            {
+              "text": "bel",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "belle",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "beau",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "C'est une ______ opportunité",
+          "options": [
+            {
+              "text": "bon",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "bonne",
+              "key": "002",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "Il n'est pas ______",
+          "options": [
+            {
+              "text": "confiant",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "confiante",
+              "key": "002",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "Elle est ______",
+          "options": [
+            {
+              "text": "courageuse",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "courageux",
+              "key": "002",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "Mon grand-père est ______",
+          "options": [
+            {
+              "text": "forte",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "fort",
+              "key": "002",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "Ils sont ______",
+          "options": [
+            {
+              "text": "fous",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "fol",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "fou",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "Ils sont ______",
+          "options": [
+            {
+              "text": "grand",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "grande",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "grands",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "C'était un ______ chèque de paie",
+          "options": [
+            {
+              "text": "gros",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "grosse",
+              "key": "002",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "Elle est très ______",
+          "options": [
+            {
+              "text": "inventive",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "inventif",
+              "key": "002",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "Ses filles sont ______",
+          "options": [
+            {
+              "text": "intelligente",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "intelligentes",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "intelligent",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "J'ai une ______ voiture",
+          "options": [
+            {
+              "text": "nouvel",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "nouveau",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "nouvelle",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "Une œuvre d'art ______",
+          "options": [
+            {
+              "text": "original",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "originale",
+              "key": "002",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "Les étudiants sont très ______",
+          "options": [
+            {
+              "text": "passionnés",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "passionnée",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "passionné",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "C'est un ______ chien",
+          "options": [
+            {
+              "text": "petit",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "petits",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "petite",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "Elle avait ______",
+          "options": [
+            {
+              "text": "peureuse",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "peureux",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "peur",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "Elle semble ______",
+          "options": [
+            {
+              "text": "prétentieux",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "prétentieuse",
+              "key": "002",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "Il est très ______",
+          "options": [
+            {
+              "text": "sérieux",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "sérieuse",
+              "key": "002",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "question": "Son fils est très ______",
+          "options": [
+            {
+              "text": "sportive",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "sportif",
+              "key": "002",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "question": "je me sens ______",
+          "options": [
+            {
+              "text": "vieil",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "vieux",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "vieille",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        }
+      ],
+      "bonus": {
+        "intro": "Prime!",
+        "vocab": [
+          {
+            "question": "l’orge",
+            "options": [
+              {
+                "text": "corn",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "oats",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "barley",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "la céréale",
+            "options": [
+              {
+                "text": "rye",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "cereal",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "barley",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "le maïs",
+            "options": [
+              {
+                "text": "barley",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "corn",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "cereal",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "l’avoine",
+            "options": [
+              {
+                "text": "oats",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "wheat",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "rye",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "le seigle",
+            "options": [
+              {
+                "text": "rye",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "cereal",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "corn",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "le blé/le froment",
+            "options": [
+              {
+                "text": "cereal",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "barley",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "wheat",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "l'ail",
+            "options": [
+              {
+                "text": "zucchini",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "turnip",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "garlic",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le fenouil",
+            "options": [
+              {
+                "text": "spinach",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "fennel",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "radish",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "l'aubergine",
+            "options": [
+              {
+                "text": "pumpkin",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "egglant",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "pepper",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "le concombre",
+            "options": [
+              {
+                "text": "cucumber",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "eggplant",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "pepper",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "le céleri",
+            "options": [
+              {
+                "text": "garlic",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "ginger",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "celery",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "la carotte",
+            "options": [
+              {
+                "text": "carrot",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "leek",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "mushroom",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "le chou",
+            "options": [
+              {
+                "text": "corn",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "celery",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "cabbage",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le chou-fleur",
+            "options": [
+              {
+                "text": "corn",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "cabbage",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "cauliflower",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le chou de Bruxelles",
+            "options": [
+              {
+                "text": "rye",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "brussels sprouts",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "barley",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "le brocoli",
+            "options": [
+              {
+                "text": "barley",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "broccoli",
+                "key": "002",
+                "correct": true
+              },
+              {
+                "text": "cereal",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "la betterave",
+            "options": [
+              {
+                "text": "beet, beetroot",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "wheat",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "rye",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "l'haricot",
+            "options": [
+              {
+                "text": "oats",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "wheat",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "bean",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "le poivron",
+            "options": [
+              {
+                "text": "bell pepper",
+                "key": "001",
+                "correct": true
+              },
+              {
+                "text": "cereal",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "corn",
+                "key": "003",
+                "correct": false
+              }
+            ]
+          },
+          {
+            "question": "l'asperge",
+            "options": [
+              {
+                "text": "cereal",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "barley",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "asparagus",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "artichoke",
+            "options": [
+              {
+                "text": "cereal",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "barley",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "artichoke",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          },
+          {
+            "question": "Ail",
+            "options": [
+              {
+                "text": "zucchini",
+                "key": "001",
+                "correct": false
+              },
+              {
+                "text": "turnip",
+                "key": "002",
+                "correct": false
+              },
+              {
+                "text": "garlic",
+                "key": "003",
+                "correct": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

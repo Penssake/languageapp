@@ -1,7 +1,6 @@
 export const state = () => ({
   hitPoints: 8,
-  playerLevel: 1,
-  gameOver: false
+  playerLevel: 1
 })
 
 export const mutations = {
@@ -9,10 +8,13 @@ export const mutations = {
     state.hitPoints = newHitPoints;
   },
   GAME_OVER(state, value) {
-    state.gameOver = value
+    state.gameOver = value;
   },
-  RESTART_GAME(state, { stateReset }) {
-    state = stateReset
+  RESTART_GAME(state) {
+    state.hitPoints = 8;
+    state.playerLevel = 0;
+    state.gameOver = false;
+
   }
 }
 
@@ -22,16 +24,9 @@ export const actions = {
     if (newHitPoints) {
       newHitPoints -= 1;
       commit("DECREMENT_HITPOINTS", newHitPoints)
-    } else {
-      commit("GAME_OVER", true)
     }
   },
   reset({ commit }) {
-    let stateReset = {
-      hitPoints: 8,
-      playerLevel: 0,
-      gameOver: false
-    }
-    commit("RESTART_GAME", { stateReset })
+    commit("RESTART_GAME")
   }
 }

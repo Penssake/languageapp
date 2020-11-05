@@ -1,8 +1,10 @@
 <template>
-  <div :class="modalOpen ? 'game-modal' : 'game-modal game-modal--closed'">
-    <div class="game-model__content">
-      <p>{{ resultsText }}</p>
-      <!-- <Link to="/game" @closeModal="closeModal" linkText="Continuer!" /> -->
+  <div :class="results ? 'game-modal' : 'game-modal game-modal--closed'">
+    <div class="game-modal__content">
+      <h1 class="game-modal__heading">{{ resultsText }}</h1>
+      <p class="game-modal__score">{{ correct }} / {{ total }}</p>
+      <p class="game-modal__percentage">{{ percent }}%</p>
+      <Button @closeModal="closeModal" linkText="Continuer!" />
     </div>
   </div>
 </template>
@@ -12,15 +14,17 @@ import { mapState } from "vuex";
 
 export default {
   name: "introModal",
-  data() {
-    return {
-      modalOpen: false,
-    };
+  computed: {
+    ...mapState("modal", ["resultsText", "heading"]),
+    ...mapState("game", ["results", "total", "correct"]),
+    percent() {
+      return ((this.correct / this.total) * 100).toFixed();
+    },
   },
-  computed: mapState("game", ["resultsText"]),
   methods: {
     closeModal() {
-      this.modalOpen = !this.modalOpen;
+      this.$store.dispatch("game/start");
+      this.$store.dispatch("game/results", false);
     },
   },
 };

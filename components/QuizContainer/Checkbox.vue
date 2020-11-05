@@ -1,6 +1,6 @@
 <template>
   <fieldset :key="reset" class="choisi-container">
-    <legend>{{ currentGroup.options }}</legend>
+    <legend>{{ currentGroup.question }}</legend>
     <label
       v-for="option in currentGroup.options"
       :key="option.key"
@@ -10,13 +10,19 @@
           : 'choisi-container__option'
       "
     >
-      <input type="checkbox" @change="handleChange(option)" />
+      <input
+        type="radio"
+        :name="option.text"
+        :value="option.text"
+        :disabled="disabled"
+        @change="handleChange(option)"
+      />
       <span>{{ option.text }}</span>
     </label>
   </fieldset>
 </template>
 <script>
-import {mapState} from "vuex";
+import { mapState } from "vuex";
 
 export default {
   name: "CheckBox",
@@ -26,14 +32,17 @@ export default {
       reset: false,
       selected: {},
       true: false,
+      disabled: false,
     };
   },
   methods: {
     handleChange(val) {
       this.selected = val;
+      this.disabled = true;
       setTimeout(() => {
         this.$emit("input", val.correct);
         this.reset = !this.reset;
+        this.disabled = false;
         this.selected = {};
       }, 900);
     },

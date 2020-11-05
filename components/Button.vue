@@ -4,6 +4,8 @@
   </div>
 </template>
 <script>
+import { mapState } from "vuex";
+
 export default {
   name: "Link",
   methods: {
@@ -11,9 +13,10 @@ export default {
       this.$emit("closeModal");
       this.$store.dispatch("timer/setTimer", 180);
       this.$store.dispatch("timer/startTimer", true);
-      this.$store.dispatch("game/start", this.playerLevel);
+      // this.$store.dispatch("game/start", this.playerLevel);
     },
   },
+  computed: mapState("health", ["playerLevel"]),
   props: {
     linkText: String,
   },

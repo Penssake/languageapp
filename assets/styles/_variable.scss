@@ -17,11 +17,13 @@ $primary-letter-spacing: 0.06rem;
 $primary-font-weight: 300;
 $primary-font-size: 1.5rem;
 
+$large-font-size: $primary-font-size * 2;
+
 $gradient: linear-gradient(
-    45deg,
-    rgba($accent-green, 0.5),
-    rgba($accent-gray, 0.5),
-    rgba($accent-green, 0.5),
-    rgba($accent-gray, 0.5),
-    rgba($accent-green, 0.5)
+  45deg,
+  rgba($accent-green, 0.5),
+  rgba($accent-gray, 0.5),
+  rgba($accent-green, 0.5),
+  rgba($accent-gray, 0.5),
+  rgba($accent-green, 0.5)
 );

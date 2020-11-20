@@ -1,8 +1,7 @@
 <template>
-  <div class="character-container">
+  <section class="character-container">
     <Player />
-    <Monster />
-  </div>
+  </section>
 </template>
 <script>
 export default {
@@ -11,6 +10,13 @@ export default {
 </script>
 <style lang="scss" scoped>
 .character-container {
-  @include flex(null, space-between, flex-end);
+  position: relative;
+  width: 95vw;
+  margin-left: 5%;
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 19.73%;
+  }
 }
 </style>

@@ -5,9 +5,10 @@
       'background-image': 'url(' + imageImport + '), url(' + imageImport + ')',
     }"
   >
-    <LevelModal />
     <Level />
+    <LevelModal />
     <ResultsModal />
+    <FinalModal />
   </div>
 </template>
 
@@ -33,6 +34,7 @@ export default {
   .game-modal__content {
     width: 100%;
     height: 100%;
+    text-align: center;
     transition: height 1s, width 1s;
   }
   .game-modal {
@@ -42,9 +44,9 @@ export default {
     background-color: $modal-bg;
     &__heading,
     &__percentage {
-      font-size: $large-font-size;
+      font-size: $xlarge-font-size;
     }
-    &__content {
+    &__content, &__note {
       @include flex(column, center, center);
     }
     &--closed {
@@ -52,9 +54,7 @@ export default {
     }
     &__percentage {
       color: $accent-green;
-    }
-    &__percentage, &__score {
-      margin-top: 0;
+      margin: 1rem;
     }
   }
 }

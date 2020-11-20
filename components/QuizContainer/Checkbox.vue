@@ -53,11 +53,17 @@ export default {
 .choisi-container {
   &__option {
     @include flex(null, center, center);
-
     cursor: pointer;
     margin: 0.6rem;
-    width: 12rem;
-    height: 3rem;
+    padding: 0.5rem;
+    width: 10rem;
+    height: 2rem;
+    font-size: $small-font-size;
+    @include respond(tab-land) {
+      width: 12rem;
+      height: 3rem;
+      font-size: $primary-font-size;
+    }
     border: $accent-border;
     background: $gradient;
     background-size: 300%;

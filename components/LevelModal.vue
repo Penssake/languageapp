@@ -1,5 +1,5 @@
 <template>
-  <div :class="levelComplete ? 'game-modal' : 'game-modal game-modal--closed'">
+  <div :class="opening ? 'game-modal' : 'game-modal game-modal--closed'">
     <div class="game-modal__content">
       <h1 class="game-modal__heading">{{ modalGreeting }}</h1>
       <p>{{ modalInstructions }}</p>
@@ -15,11 +15,14 @@ export default {
   name: "introModal",
   computed: {
     ...mapState("modal", ["modalGreeting", "modalInstructions"]),
-    ...mapState("game", ["levelComplete"]),
+    ...mapState("game", ["opening"]),
   },
   methods: {
     closeModal() {
-      this.$store.dispatch("game/complete", false);
+      this.$store.dispatch("game/modalReset", {
+        value: false,
+        name: "opening",
+      });
     },
   },
 };

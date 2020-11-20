@@ -1,8 +1,6 @@
 <template>
   <div class="app-container">
-    <transition name="route-fade" mode="out-in">
-      <Nuxt />
-    </transition>
+    <Nuxt />
   </div>
 </template>
 <script>
@@ -11,13 +9,16 @@ import levelData from "@/assets/data/level.json";
 import modalData from "@/assets/data/modal.json";
 
 export default {
-  computed: mapState("health", ["playerLevel"]),
   computed: mapState("game", ["levelComplete"]),
   created() {
     this.$store.dispatch("game/init", levelData);
     this.$store.dispatch("game/start");
     this.$store.dispatch("modal/initModal", modalData);
     this.$store.dispatch("modal/setModal", 0);
+    this.$store.dispatch("game/modalReset", {
+      value: true,
+      name: "opening",
+    });
   },
 };
 </script>
@@ -46,14 +47,5 @@ export default {
 *::after {
   box-sizing: border-box;
   margin: 0;
-}
-.route-fade-enter-active,
-.route-fade-leave-active {
-  transition: opacity 400ms ease-in-out;
-}
-
-.route-fade-enter,
-.route-fade-leave-active {
-  opacity: 0;
 }
 </style>

@@ -7,12 +7,7 @@
       'timer timer--final': outOfTime,
     }"
   >
-    <svg height="100" width="100">
-      <circle cx="50" cy="50" r="50" stroke="none" fill="none" />
-      <text x="51%" y="59%" text-anchor="middle" stroke="none" fill="white">
-        {{ formattedTime }}
-      </text>
-    </svg>
+    {{ formattedTime }}
   </div>
 </template>
 <script>
@@ -35,6 +30,7 @@ export default {
         () => this.$store.dispatch("timer/decrement"),
         1000
       );
+      console.log(timeOut)
       if (val > 0) {
         this.outOfTime = false;
         if (val <= 60) this.oneMinuteWarning = true;
@@ -49,16 +45,13 @@ export default {
         this.oneMinuteWarning = false;
         this.thirtySecondWarning = false;
         this.outOfTime = true;
-        this.$store.dispatch("game/gameOver", "time");
+        this.$store.dispatch("game/gameOver");
+        this.$store.dispatch("timer/startTimer", false);
       }
-    },
-    currentTime(val) {
-      this.countDown = val;
     },
     start(val) {
       if (val) {
         this.countDown = this.currentTime;
-        this.$store.dispatch("timer/startTimer", false);
       }
     },
   },
@@ -77,9 +70,15 @@ export default {
 </script>
 <style lang="scss" scoped>
 .timer {
-  padding: 0.7rem;
+  height: 5rem;
+  width: 5rem;
+  @include respond(tab-port) {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
   background: $gradient;
   border: $accent-border;
+  @include flex(null, center, center);
   &--warning1 {
     background: $accent-red-opacity;
   }

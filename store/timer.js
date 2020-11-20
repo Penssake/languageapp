@@ -11,6 +11,7 @@ export const mutations = {
         state.currentTime = value;
     },
     DECREMENT_TIME(state, newTime) {
+        console.log("decremit")
         state.currentTime = newTime;
     }
 }

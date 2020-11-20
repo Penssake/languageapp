@@ -1,7 +1,7 @@
 <template>
   <div class="quiz-container">
-    <CurrentQuestion :choisiData="currentGroup.question" />
-    <Checkbox :choisiData="currentGroup.options" @input="handleAnswer" />
+    <CurrentQuestion />
+    <Checkbox @input="handleAnswer" />
   </div>
 </template>
 <script>
@@ -16,21 +16,20 @@ export default {
     },
   },
   computed: {
-    ...mapState("game", ["currentGroup", "currentIndex"]),
-    ...mapState("health", ["playerLevel"]),
+    ...mapState("game", ["currentIndex"]),
   },
   methods: {
     handleAnswer(val) {
       if (val) {
-        this.$store.dispatch("game/update", this.currentIndex);
-      } else this.$store.dispatch("health/decrement");
+        this.$store.dispatch("game/update", 1);
+      } else this.$store.dispatch("game/update", 0);
     },
   },
 };
 </script>
 <style lang="scss" scoped>
 .quiz-container {
-  max-width: 300px;
+  max-width: 400px;
   padding-left: 1rem;
   @include flex(null, space-between, null);
 }

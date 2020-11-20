@@ -4,6 +4,8 @@
   </div>
 </template>
 <script>
+import { mapState } from "vuex";
+
 export default {
   name: "Link",
   methods: {
@@ -11,7 +13,6 @@ export default {
       this.$emit("closeModal");
       this.$store.dispatch("timer/setTimer", 180);
       this.$store.dispatch("timer/startTimer", true);
-      this.$store.dispatch("game/start", this.playerLevel);
     },
   },
   props: {
@@ -21,7 +22,6 @@ export default {
 </script>
 <style lang="scss" scope>
 .play-link {
-  margin: 0.6rem;
   width: 12rem;
   height: 3rem;
   background-color: $accent-blue;

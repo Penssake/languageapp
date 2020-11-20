@@ -2,11 +2,17 @@ export const state = () => ({
   dataBank: {},
   currentIndex: 0,
   currentGroup: {},
-  levelComplete: false,
   levelIndex: 0,
-  modalGreeting: "",
-  modalInstructions: "",
-  resultsText: "",
+  levelNum: 0,
+
+  opening: true,
+  results: false,
+  final: false,
+
+  finalLevel: false,
+  correct: 0,
+  total: 0,
+  percent: 0
 })
 
 export const mutations = {
@@ -14,22 +20,43 @@ export const mutations = {
     state.dataBank = data;
   },
   START_LEVEL(state) {
+    state.correct = 0;
+    state.percent = 0;
+    state.finalLevel = state.dataBank.levels[state.levelIndex].finalLevel;
+    state.levelNum = state.dataBank.levels[state.levelIndex].levelNum;
     state.currentGroup = state.dataBank.levels[state.levelIndex].selection[state.currentIndex];
-    state.modalGreeting = state.dataBank.intros.greeting[state.levelIndex];
-    state.modalInstructions = state.dataBank.intros.instructions[state.levelIndex];
-    state.resultsText = state.dataBank.results.text;
+    state.total = state.dataBank.levels[state.levelIndex].selection.length;
   },
-  UPDATE_INDEX(state, value) {
-    state.currentIndex = value;
+  UPDATE_INDEX(state) {
+    state.currentIndex += 1;
   },
-  UPDATE_LEVEL_INDEX(state, value) {
+  UPDATE_LEVEL(state, value) {
+    state.currentIndex = 0;
     state.levelIndex = value;
   },
-  NEXT_GROUP(state, newIndex) {
-    state.currentGroup = state.dataBank.levels[state.levelIndex].selection[newIndex];
+  UPDATE_PERCENT(state, correctInc) {
+    state.correct += correctInc;
+    state.percent = parseInt(((state.correct / state.total) * 100).toFixed(), 10);
   },
-  LEVEL_COMPLETE(state, value) {
-    state.levelComplete = value;
+  NEXT_GROUP(state) {
+    state.currentGroup = state.dataBank.levels[state.levelIndex].selection[state.currentIndex];
+  },
+  // game reset
+  RESET_GAME(state) {
+    state.currentIndex = 0,
+      state.currentGroup = {},
+      state.opening = false,
+      state.levelIndex = 0
+  },
+  // modal resets
+  OPENING(state, value) {
+    state.opening = value;
+  },
+  FINAL(state, value) {
+    state.final = value
+  },
+  RESULTS(state, value) {
+    state.results = value
   },
 }
 
@@ -37,26 +64,29 @@ export const actions = {
   init({ commit }, data) {
     commit("ADD_DATA", data);
   },
-  start({ commit }, level) {
-    commit("LEVEL_COMPLETE", false);
-    commit("START_LEVEL", level);
+  start({ commit }) {
+    commit("START_LEVEL");
   },
-  complete({ commit }, value) {
-    commit("LEVEL_COMPLETE", value);
+  modalReset({ commit }, { value, name }) {
+    if (name === "opening") commit("OPENING", value);
+    if (name === "results") commit("RESULTS", value);
+    if (name === "final") commit("FINAL", value);
   },
-  update({ state, commit }, index) {
-    let newIndex = index += 1;
-    commit("UPDATE_INDEX", index)
-    if (state.currentGroup.final) {
-      // let levelIndex = state.levelIndex;
-      // levelIndex += 1;
-      // commit("UPDATE_LEVEL_INDEX", levelIndex)
-      commit("LEVEL_COMPLETE", true);
-    } else commit("NEXT_GROUP", newIndex);
+  update({ state, commit }, correctInc) {
+    commit("UPDATE_PERCENT", correctInc);
+    if (state.currentGroup.finalQuestion) {
+      let levelIndex = state.levelIndex;
+      levelIndex += 1;
+      commit("UPDATE_LEVEL", levelIndex);
+      commit("RESULTS", true);
+    } else {
+      commit("UPDATE_INDEX")
+      commit("NEXT_GROUP", correctInc);
+    }
   },
-  reset({ state, commit }, index) {
-    commit("UPDATE_LEVEL_INDEX", 0)
-    commit("UPDATE_INDEX", 0)
-    commit("LEVEL_COMPLETE", true);
+  gameOver({ commit }) {
+    commit("RESULTS", true);
+    commit("RESET_GAME");
+    commit("START_LEVEL");
   }
 }

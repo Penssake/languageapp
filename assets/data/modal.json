@@ -1,0 +1,22 @@
+{
+  "intros": {
+    "greeting": "Bonjour!",
+    "instructions": "Pour jouer, choisissez la bonne paire"
+  },
+  "results": {
+    "result": "Résultat",
+    "buttonText": {
+      "continue": "Continuer!",
+      "discontinue": "Réessayer!"
+    },
+    "note": {
+      "continue": "Vous êtes génial!",
+      "discontinue": "77% pour continuer"
+    }
+  },
+  "fini": {
+    "result": "La fin",
+    "note": "Vous êtes super!",
+    "buttonText": "Rejouer!"
+  }
+}

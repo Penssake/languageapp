@@ -1,0 +1,3542 @@
+{
+  "levels": [
+    {
+      "finalLevel": false,
+      "levelNum": 1,
+      "selection": [
+        {
+          "finalQuestion": false,
+          "question": "lire",
+          "options": [
+            {
+              "text": "to speak",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to know",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to read",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "être",
+          "options": [
+            {
+              "text": "to be",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to be able to",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to walk",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "avoir",
+          "options": [
+            {
+              "text": "to hear",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to listen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to have",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "faire",
+          "options": [
+            {
+              "text": "to buy",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to do",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to go out",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "dire",
+          "options": [
+            {
+              "text": "to wait",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to lose",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to say",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "aller",
+          "options": [
+            {
+              "text": "to be",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to want",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to go",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "voir",
+          "options": [
+            {
+              "text": "to see",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to go out",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to pass",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "savoir",
+          "options": [
+            {
+              "text": "to see",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to know",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to pass",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "pouvoir",
+          "options": [
+            {
+              "text": "to be able to",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to wait",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to start",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "falloir",
+          "options": [
+            {
+              "text": "to be",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to be ok",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to be necessary",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "vouloir",
+          "options": [
+            {
+              "text": "to come",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to want",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to take",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "venir",
+          "options": [
+            {
+              "text": "to come",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to think",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to eat",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "prendre",
+          "options": [
+            {
+              "text": "to speak",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to leave",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to take",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "arriver",
+          "options": [
+            {
+              "text": "to give back",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to return",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to arrive",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "croire",
+          "options": [
+            {
+              "text": "to be",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to believe",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to lose",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "mettre",
+          "options": [
+            {
+              "text": "to leave",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to give",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to put",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "passer",
+          "options": [
+            {
+              "text": "to pass",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to find",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to put",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "devoir",
+          "options": [
+            {
+              "text": "to have to",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to want to",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to be able to",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "trouver",
+          "options": [
+            {
+              "text": "to play",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to hold",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to find",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "chercher",
+          "options": [
+            {
+              "text": "to pass",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to look for",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to listen",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "jouer",
+          "options": [
+            {
+              "text": "to return",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to start",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to play",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "laisser",
+          "options": [
+            {
+              "text": "to leave",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to listen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to like",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "parler",
+          "options": [
+            {
+              "text": "to read",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to know",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to speak",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "donner",
+          "options": [
+            {
+              "text": "to give",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to be able to",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to walk",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "comprendre",
+          "options": [
+            {
+              "text": "to hear",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to listen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to understand",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "connaître",
+          "options": [
+            {
+              "text": "to buy",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to know",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to go out",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "partir",
+          "options": [
+            {
+              "text": "to wait",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to lose",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to leave",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "demander",
+          "options": [
+            {
+              "text": "to be",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to want",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to ask",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "tenir",
+          "options": [
+            {
+              "text": "to hold",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to go out",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to pass",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "aimer",
+          "options": [
+            {
+              "text": "to see",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to like",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to pass",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "penser",
+          "options": [
+            {
+              "text": "to think",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to wait",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to start",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "rester",
+          "options": [
+            {
+              "text": "to be",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to be ok",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to stay",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "manger",
+          "options": [
+            {
+              "text": "to come",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to eat",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to take",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "appeler",
+          "options": [
+            {
+              "text": "to call",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to think",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to eat",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "sortir",
+          "options": [
+            {
+              "text": "to speak",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to leave",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to go out",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "travailler",
+          "options": [
+            {
+              "text": "to give back",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to return",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to work",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "acheter",
+          "options": [
+            {
+              "text": "to be",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to buy",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to lose",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "perdre",
+          "options": [
+            {
+              "text": "to leave",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to give",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to lose",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "attendre",
+          "options": [
+            {
+              "text": "to wait",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to find",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to put",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "rendre",
+          "options": [
+            {
+              "text": "to play",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to hold",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to give back",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "revenir",
+          "options": [
+            {
+              "text": "to pass",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to come back",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "to listen",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "écouter",
+          "options": [
+            {
+              "text": "to return",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "to start",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to listen",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "entendre",
+          "options": [
+            {
+              "text": "to hear",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to listen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to like",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "rentrer",
+          "options": [
+            {
+              "text": "to return",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to listen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to like",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "commencer",
+          "options": [
+            {
+              "text": "to start",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to listen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to like",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": true,
+          "question": "marcher",
+          "options": [
+            {
+              "text": "to walk",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "to listen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "to like",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "finalLevel": false,
+      "levelNum": 2,
+      "selection": [
+        {
+          "finalQuestion": false,
+          "question": "âgé (e)",
+          "options": [
+            {
+              "text": "old",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "aged",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "eldery",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "beau, bel, belle",
+          "options": [
+            {
+              "text": "beautiful",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "bell",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "becoming",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "bon, bonne",
+          "options": [
+            {
+              "text": "bad",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "good",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "best",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "confiant (e)",
+          "options": [
+            {
+              "text": "confident",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "confidant",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "connoisseur",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "courageux, courageuse",
+          "options": [
+            {
+              "text": "brave",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "courage",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "confident",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "égoïste",
+          "options": [
+            {
+              "text": "eremitical",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "selfish",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "exhausted",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "énergique",
+          "options": [
+            {
+              "text": "energy",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "energetic",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "enable",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "énorme",
+          "options": [
+            {
+              "text": "huge",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "grande",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "enormous",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "faible",
+          "options": [
+            {
+              "text": "weak",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "fable",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "feasible",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "fort (e)",
+          "options": [
+            {
+              "text": "fort",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "strong",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "fordable",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "fou, fol, folle",
+          "options": [
+            {
+              "text": "fawn",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "follow",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "crazy",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "gigantesque",
+          "options": [
+            {
+              "text": "shallow",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "hollow",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "huge",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "grand (e)",
+          "options": [
+            {
+              "text": "small",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "tall",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "medium",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "gros, grosse",
+          "options": [
+            {
+              "text": "big",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "gross",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "gas",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "idéaliste",
+          "options": [
+            {
+              "text": "perfect",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "ideal",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "idealistic",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "intelligent (e)",
+          "options": [
+            {
+              "text": "clever",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "intuitive",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "unintelligent",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "inventif, inventive",
+          "options": [
+            {
+              "text": "resourceful",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "energetic",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "interesting",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "jeune",
+          "options": [
+            {
+              "text": "june",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "young",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "green",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "mince",
+          "options": [
+            {
+              "text": "minced",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "slender",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "thinned",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "nouveau, nouvel, nouvelle",
+          "options": [
+            {
+              "text": "new",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "young",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "nobel",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "optimiste",
+          "options": [
+            {
+              "text": "optimistic",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "optimal",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "opportunity",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "original (e)",
+          "options": [
+            {
+              "text": "first",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "original",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "beginning",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "passionné (e)",
+          "options": [
+            {
+              "text": "passion",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "passionate",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "passive",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "pessimiste",
+          "options": [
+            {
+              "text": "pessimistic",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "pessimists",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "passivast",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "peureux, peureuse",
+          "options": [
+            {
+              "text": "peruse",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "fearful",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "pass",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "prétentieux, prétentieuse",
+          "options": [
+            {
+              "text": "pretencious",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "pretend",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "pretending",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "sérieux, sérieuse",
+          "options": [
+            {
+              "text": "syracuse",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "serious",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "service",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "sincère",
+          "options": [
+            {
+              "text": "nice",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "kind",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "sincere",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "sportif, sportive",
+          "options": [
+            {
+              "text": "spirited",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "active",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "athletic",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "vieux, vieil, vieille",
+          "options": [
+            {
+              "text": "shy",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "old",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "sorrow",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "rempli",
+          "options": [
+            {
+              "text": "high",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "fresh",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "full",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "vide",
+          "options": [
+            {
+              "text": "low",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "empty",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "sorrow",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "chaud",
+          "options": [
+            {
+              "text": "cold",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "hot",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "rude",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "froid",
+          "options": [
+            {
+              "text": "cold",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "funny",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "hot",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "haut",
+          "options": [
+            {
+              "text": "hot",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "low",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "high",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "bas",
+          "options": [
+            {
+              "text": "low",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "funny",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "hot",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": true,
+          "question": "frais",
+          "options": [
+            {
+              "text": "free",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "fresh",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "funky",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "finalLevel": false,
+      "levelNum": 3,
+      "selection": [
+        {
+          "finalQuestion": false,
+          "question": "une fenêtre",
+          "options": [
+            {
+              "text": "a window",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a dish",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a glass",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+
+        {
+          "finalQuestion": false,
+          "question": "une chaise",
+          "options": [
+            {
+              "text": "a terrace",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a sheet",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a chair",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une porte",
+          "options": [
+            {
+              "text": "a room",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a spoon",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a door",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une montre",
+          "options": [
+            {
+              "text": "a clock",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a knife",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a fork",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "Un réfrigérateur",
+          "options": [
+            {
+              "text": "a fridge",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a wall",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a ceiling",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une table",
+          "options": [
+            {
+              "text": "a roof",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a carpet",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "table",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un oreiller",
+          "options": [
+            {
+              "text": "a mirror",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "an oven",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a pillow",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une armoire",
+          "options": [
+            {
+              "text": "a computer",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a kitchen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a closet",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "Une salle de bains",
+          "options": [
+            {
+              "text": "a bathroom",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a flat",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a house",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un lit",
+          "options": [
+            {
+              "text": "a bed",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a computer",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a bathroom",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une maison",
+          "options": [
+            {
+              "text": "a closet",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a house",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "a pillow",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un appartement",
+          "options": [
+            {
+              "text": "a table",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a fridge",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a flat",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une cuisine",
+          "options": [
+            {
+              "text": "a clock",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a door",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a kitchen",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un ordinateur",
+          "options": [
+            {
+              "text": "a computer",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a chair",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a window",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un four",
+          "options": [
+            {
+              "text": "an oven",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a dish",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a glass",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un miroir",
+          "options": [
+            {
+              "text": "a terrace",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a sheet",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a mirror",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un tapis",
+          "options": [
+            {
+              "text": "a room",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a spoon",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a carpet",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un toit",
+          "options": [
+            {
+              "text": "a roof",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a knife",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a fork",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un plafond",
+          "options": [
+            {
+              "text": "a ceiling",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "a wall",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a spoon",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un mur",
+          "options": [
+            {
+              "text": "a roof",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a carpet",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a wall",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une fourchette",
+          "options": [
+            {
+              "text": "a fork",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "an oven",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a mirror",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un couteau",
+          "options": [
+            {
+              "text": "an oven",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a knife",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "a fork",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une cuillère",
+          "options": [
+            {
+              "text": "a spoon",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "an oven",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a fork",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une chambre",
+          "options": [
+            {
+              "text": "an oven",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a fork",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a room",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un drap",
+          "options": [
+            {
+              "text": "a sheet",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "an oven",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a fork",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "une terrasse",
+          "options": [
+            {
+              "text": "an oven",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a terrace",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "a fork",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "un vase",
+          "options": [
+            {
+              "text": "an oven",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a fork",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "a glass",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": true,
+          "question": "un plat",
+          "options": [
+            {
+              "text": "an oven",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "a dish",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "a fork",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "finalLevel": false,
+      "levelNum": 4,
+      "selection": [
+        {
+          "finalQuestion": false,
+          "question": "l’orge",
+          "options": [
+            {
+              "text": "corn",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "oats",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "barley",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la céréale",
+          "options": [
+            {
+              "text": "rye",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "cereal",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "barley",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le maïs",
+          "options": [
+            {
+              "text": "barley",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "corn",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "cereal",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l’avoine",
+          "options": [
+            {
+              "text": "oats",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "wheat",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "rye",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le seigle",
+          "options": [
+            {
+              "text": "rye",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "cereal",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "corn",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le blé/le froment",
+          "options": [
+            {
+              "text": "cereal",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "barley",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "wheat",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l'ail",
+          "options": [
+            {
+              "text": "zucchini",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "turnip",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "garlic",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le fenouil",
+          "options": [
+            {
+              "text": "spinach",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "fennel",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "radish",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l'aubergine",
+          "options": [
+            {
+              "text": "pumpkin",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "egglant",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "pepper",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le concombre",
+          "options": [
+            {
+              "text": "cucumber",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "eggplant",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "pepper",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le céleri",
+          "options": [
+            {
+              "text": "garlic",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "ginger",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "celery",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la carotte",
+          "options": [
+            {
+              "text": "carrot",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "leek",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "mushroom",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le chou",
+          "options": [
+            {
+              "text": "corn",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "celery",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "cabbage",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le chou-fleur",
+          "options": [
+            {
+              "text": "corn",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "cabbage",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "cauliflower",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le chou de Bruxelles",
+          "options": [
+            {
+              "text": "rye",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "brussels sprouts",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "barley",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le brocoli",
+          "options": [
+            {
+              "text": "barley",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "broccoli",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "cereal",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la betterave",
+          "options": [
+            {
+              "text": "beet, beetroot",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "wheat",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "rye",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l'haricot",
+          "options": [
+            {
+              "text": "oats",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "wheat",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "bean",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le poivron",
+          "options": [
+            {
+              "text": "bell pepper",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "cereal",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "corn",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l'asperge",
+          "options": [
+            {
+              "text": "cereal",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "barley",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "asparagus",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "artichoke",
+          "options": [
+            {
+              "text": "cereal",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "barley",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "artichoke",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": true,
+          "question": "Ail",
+          "options": [
+            {
+              "text": "zucchini",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "turnip",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "garlic",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "finalLevel": true,
+      "levelNum": 5,
+      "selection": [
+        {
+          "finalQuestion": false,
+          "question": "le visage",
+          "options": [
+            {
+              "text": "the foot",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the toe",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the face",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le front",
+          "options": [
+            {
+              "text": "the knee",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the brow",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the leg",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la tempe",
+          "options": [
+            {
+              "text": "the temple",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the hand",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the wrist",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la joue",
+          "options": [
+            {
+              "text": "the elbow",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the arm",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the cheek",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le menton",
+          "options": [
+            {
+              "text": "the buttock",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the hip",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the chin",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le cou",
+          "options": [
+            {
+              "text": "the neck",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the abdomen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the chest",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l'oeil",
+          "options": [
+            {
+              "text": "the navel",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the armpit",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the eye",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le cil",
+          "options": [
+            {
+              "text": "the throat",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the eyelash",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the shoulder",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la paupière",
+          "options": [
+            {
+              "text": "the back",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the belly",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the eyelid",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le sourcil",
+          "options": [
+            {
+              "text": "the hairs",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the eyebrow",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the ear",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le nez",
+          "options": [
+            {
+              "text": "the nose",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the tooth",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the lip",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la bouche",
+          "options": [
+            {
+              "text": "the nose",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the buttock",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the mouth",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la lèvre",
+          "options": [
+            {
+              "text": "the eyebrow",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the eyelid",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the lip",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la dent",
+          "options": [
+            {
+              "text": "the tooth",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the eyelash",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the eye",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l’oreille",
+          "options": [
+            {
+              "text": "the neck",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the chin",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the ear",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "les cheveux",
+          "options": [
+            {
+              "text": "the cheek",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the hairs",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the temple",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le ventre",
+          "options": [
+            {
+              "text": "the brow",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the belly",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the face",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le dos",
+          "options": [
+            {
+              "text": "the foot",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the toe",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the back",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le l’épaule",
+          "options": [
+            {
+              "text": "the knee",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the shoulder",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the leg",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la gorge",
+          "options": [
+            {
+              "text": "the throat",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the hand",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the wrist",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l'aisselle",
+          "options": [
+            {
+              "text": "the elbow",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the arm",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the armpit",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le nombril",
+          "options": [
+            {
+              "text": "the buttock",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the navel",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the chin",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la poitrine",
+          "options": [
+            {
+              "text": "the neck",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the abdomen",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the chest",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l’abdomen",
+          "options": [
+            {
+              "text": "the navel",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the abdomen",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the eye",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la hanche",
+          "options": [
+            {
+              "text": "the throat",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the eyelash",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the hip",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la fesse",
+          "options": [
+            {
+              "text": "the buttock",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the belly",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the eyelid",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la bras",
+          "options": [
+            {
+              "text": "the arm",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the eyebrow",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the ear",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le coude",
+          "options": [
+            {
+              "text": "the nose",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the elbow",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the lip",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la poignet",
+          "options": [
+            {
+              "text": "the nose",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the buttock",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the wrist",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la main",
+          "options": [
+            {
+              "text": "the hand",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the eyelid",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the lip",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "la jambe",
+          "options": [
+            {
+              "text": "the leg",
+              "key": "001",
+              "correct": true
+            },
+            {
+              "text": "the eyelash",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the eye",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "le genou",
+          "options": [
+            {
+              "text": "the neck",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the knee",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the ear",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        },
+        {
+          "finalQuestion": false,
+          "question": "l'orteil",
+          "options": [
+            {
+              "text": "the cheek",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the hairs",
+              "key": "002",
+              "correct": false
+            },
+            {
+              "text": "the toe",
+              "key": "003",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "finalQuestion": true,
+          "question": "le pied",
+          "options": [
+            {
+              "text": "the brow",
+              "key": "001",
+              "correct": false
+            },
+            {
+              "text": "the foot",
+              "key": "002",
+              "correct": true
+            },
+            {
+              "text": "the face",
+              "key": "003",
+              "correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

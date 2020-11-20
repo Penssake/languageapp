@@ -16,47 +16,56 @@
 - tab-port
 - desktop
 - xl-desktop 
+
+- bg-resolution
 */
 
 @mixin respond($breakpoint) {
-    @if ($breakpoint == xl-desktop) {
-        @media (min-width: 112.5em) {
-            // 1800px
-            @content;
-        }
+  @if ($breakpoint == xl-desktop) {
+    @media (min-width: 112.5em) {
+      // 1800px
+      @content;
     }
-    @if ($breakpoint == desktop) {
-        @media (min-width: 75em) {
-            // 1200px
-            @content;
-        }
+  }
+  @if ($breakpoint == desktop) {
+    @media (min-width: 75em) {
+      // 1200px
+      @content;
     }
-    @if ($breakpoint == tab-land) {
-        @media (min-width: 56.25em) {
-            // 900px
-            @content;
-        }
+  }
+  @if ($breakpoint == tab-land) {
+    @media (min-width: 56.25em) {
+      // 900px
+      @content;
     }
-    @if ($breakpoint == tab-port) {
-        @media (min-width: 37.5em) {
-            // 600px
-            @content;
-        }
+  }
+  @if ($breakpoint == tab-port) {
+    @media (min-width: 37.5em) {
+      // 600px
+      @content;
     }
+  }
+  @if ($breakpoint == bg-resolution) {
+    @media (min-resolution: 192dpi) and (min-width: 37.5em),
+      (min-width: 125em) {
+      // 2000px || high res 600px
+      @content;
+    }
+  }
 }
 
 // flex
 
 @mixin flex($direction, $justifyContent, $alignItems) {
-    display: flex;
+  display: flex;
 
-    @if $justifyContent {
-        justify-content: $justifyContent;
-    }
-    @if $alignItems {
-        align-items: $alignItems;
-    }
-    @if $direction {
-        flex-direction: $direction;
-    }
+  @if $justifyContent {
+    justify-content: $justifyContent;
+  }
+  @if $alignItems {
+    align-items: $alignItems;
+  }
+  @if $direction {
+    flex-direction: $direction;
+  }
 }

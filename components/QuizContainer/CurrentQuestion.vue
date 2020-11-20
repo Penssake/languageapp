@@ -1,17 +1,14 @@
 <template>
   <section>
-    <p>{{ choisiData }}</p>
+    <p>{{ currentGroup.question }}</p>
   </section>
 </template>
 <script>
+import { mapState } from "vuex";
+
 export default {
   name: "CurrentQuestion",
-  props: {
-    choisiData: {
-      type: String,
-      default: () => null,
-    },
-  },
+  computed: mapState("game", ["currentGroup"]),
 };
 </script>
 <style lang="scss" scoped>

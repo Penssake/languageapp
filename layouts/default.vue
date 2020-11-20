@@ -1,34 +1,31 @@
 <template>
-  <div
-    class="app-container"
-    :style="{ 'background-image': 'url(' + imageImport + ')' }"
-  >
-    <transition name="route-fade" mode="out-in">
-      <Nuxt />
-    </transition>
+  <div class="app-container">
+    <Nuxt />
   </div>
 </template>
 <script>
 import { mapState } from "vuex";
-import image from "@/assets/images/phase-one-backdrop.png";
-import dataFile from "@/assets/data/data.json";
+import levelData from "@/assets/data/level.json";
+import modalData from "@/assets/data/modal.json";
 
 export default {
-  data() {
-    return {
-      imageImport: image,
-    };
-  },
-  computed: mapState("health", ["playerLevel"]),
+  computed: mapState("game", ["levelComplete"]),
   created() {
-    this.$store.dispatch("game/init", dataFile);
-    this.$store.dispatch("game/start", this.playerLevel);
+    this.$store.dispatch("game/init", levelData);
+    this.$store.dispatch("game/start");
+    this.$store.dispatch("modal/initModal", modalData);
+    this.$store.dispatch("modal/setModal", 0);
+    this.$store.dispatch("game/modalReset", {
+      value: true,
+      name: "opening",
+    });
   },
 };
 </script>
 <style lang="scss" scoped>
 .app-container {
   height: 100vh;
+  background-image: url("~@/assets/images/bg-sm.png");
   background-repeat: no-repeat;
   background-size: 300% 100%;
   background-position-y: bottom;
@@ -40,6 +37,9 @@ export default {
   color: $primary-font-color;
   animation: bg-animation 300s infinite alternate;
   @include moving-backgrounds(bg-animation);
+  @include respond(bg-resolution) {
+    background-image: url("~@/assets/images/bg-lg.png");
+  }
 }
 
 *,
@@ -47,14 +47,5 @@ export default {
 *::after {
   box-sizing: border-box;
   margin: 0;
-}
-.route-fade-enter-active,
-.route-fade-leave-active {
-  transition: opacity 400ms ease-in-out;
-}
-
-.route-fade-enter,
-.route-fade-leave-active {
-  opacity: 0;
 }
 </style>
